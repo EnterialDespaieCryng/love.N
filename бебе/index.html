@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Денис ❤️ Анастасия</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>    <!-- Модальное праздничное окно на полгода -->
+    <div id="anniversary-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-card">
+            <span class="close-modal" id="close-anniversary">&times;</span>
+            <span class="modal-emoji">🎉 半 💕</span>
+            <h2>С полугодием нас, Лапка! 🌸</h2>
+            <p>Моя любимая Настя! Сегодня ровно 6 месяцев (полгода), как мы вместе. За эти полгода ты подарила мне столько счастья, тепла и улыбок, сколько я не испытывал за всю свою жизнь.</p>
+            <p>Я безумно благодарен за каждое твоё нежное объятие, за каждое тихое «люблю» и за все те милые моменты, которые мы разделяем. Пусть эти полгода станут лишь прекрасным началом нашей бесконечной и счастливой истории!</p>
+            <p class="love-signature">Безумно люблю тебя! Твой Денис ❤️</p>
+            <button class="btn-love" id="modal-celebrate-btn">Ура! 💖</button>
+        </div>
+    </div>
+
+
+    <!-- Падающие сердечки -->
+    <div id="hearts-container"></div>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">D & A ❤️</a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Главная</a>
+                <a href="album.html">Наш Альбом 🌸</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="heart-loader">
+            <div class="heart-shape">❤️</div>
+        </div>
+        <h1 class="romantic-title">Денис & Анастасия</h1>
+        <p class="subtitle">Наша история любви в каждой секунде...</p>
+    </header>
+
+    <!-- Секция с таймером -->
+    <section class="timer-section">
+        <div class="container">
+            <h2 class="section-title">Мы вместе уже:</h2>
+            <div class="timer-grid">
+                <div class="timer-card">
+                    <span id="days">0</span>
+                    <p>дней</p>
+                </div>
+                <div class="timer-card">
+                    <span id="hours">0</span>
+                    <p>часов</p>
+                </div>
+                <div class="timer-card">
+                    <span id="minutes">0</span>
+                    <p>минут</p>
+                </div>
+                <div class="timer-card">
+                    <span id="seconds">0</span>
+                    <p>секунд</p>
+                </div>
+            </div>
+            <p class="small-date">с прекрасного дня — 16 декабря 2025 года ✨</p>
+        </div>
+    </section>
+
+    <!-- Интерактивная кнопка с записками -->
+    <section class="love-notes-section">
+        <div class="container">
+            <div class="note-box">
+                <h3>Записка для тебя 💌</h3>
+                <p id="note-text" class="note-text">Нажми на кнопочку ниже, Лапка...</p>
+                <button id="next-note-btn" class="btn-love">Открыть записку</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Создано Денисом с бесконечной любовью для Насти ❤️ 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+        
